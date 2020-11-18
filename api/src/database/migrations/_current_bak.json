@@ -5,8 +5,8 @@
             "schema": {
                 "id": {
                     "allowNull": false,
-                    "autoIncrement": true,
                     "primaryKey": true,
+                    "autoIncrement": true,
                     "field": "id",
                     "seqType": "Sequelize.INTEGER"
                 },
@@ -20,9 +20,9 @@
                     "field": "pendente",
                     "seqType": "Sequelize.BOOLEAN"
                 },
-                "DeviceId": {
+                "InitId": {
                     "allowNull": false,
-                    "field": "DeviceId",
+                    "field": "InitId",
                     "seqType": "Sequelize.STRING"
                 },
                 "createdAt": {
@@ -43,8 +43,8 @@
             "schema": {
                 "id": {
                     "allowNull": false,
-                    "autoIncrement": true,
                     "primaryKey": true,
+                    "autoIncrement": true,
                     "field": "id",
                     "seqType": "Sequelize.INTEGER"
                 },
@@ -79,5 +79,5 @@
             "indexes": []
         }
     },
-    "revision": 1605670595
+    "revision": 1605668744
 }

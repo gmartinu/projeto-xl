@@ -1,7 +1,8 @@
 const routes = require("express").Router();
-const userController = require('../controllers/user');
+const controller = require('../controllers');
 
-routes.get(["/users"], userController.index)
-routes.post("/users", userController.create)
+routes.get("/users", controller.users)
+routes.get("/pushes", controller.pushesIndex)
+routes.post("/pushes", controller.pushesCreate)
 
 module.exports = routes;
