@@ -20,6 +20,11 @@
                     "field": "pendente",
                     "seqType": "Sequelize.BOOLEAN"
                 },
+                "confirma": {
+                    "allowNull": false,
+                    "field": "confirma",
+                    "seqType": "Sequelize.BOOLEAN"
+                },
                 "DeviceId": {
                     "allowNull": false,
                     "field": "DeviceId",
@@ -79,5 +84,5 @@
             "indexes": []
         }
     },
-    "revision": 1605670595
+    "revision": 1605695061
 }
