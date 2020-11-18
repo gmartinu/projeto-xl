@@ -3,6 +3,6 @@ const controller = require('../controllers');
 
 routes.get("/users", controller.users)
 routes.get("/pushes", controller.pushesIndex)
-routes.post("/pushes", controller.pushesCreate)
+routes.post(["/pushes", "/pushes/:id"], controller.pushesCreate)
 
 module.exports = routes;
